@@ -14,3 +14,4 @@ Usage Guidelines:
 2. After you click convert wait for sometime a cmd window will open showing the progress just let it complete
 3. Done, You have successfully converted .ab file .tar file
 
+Linux Verion of the tool will be shared soon
