@@ -1,17 +1,26 @@
-# .ab to .tar
-A simple Windows GUI Application to convert adb backup files (.ab) to .tar file
+# ADB Backup to TAR Converter
 
-**Password protected backups are not supported yet !**
+This tool provides a simple Windows GUI application to convert Android ADB backup files (.ab) to .tar files. Currently, it does not support password-protected backups.
 
-Requirements:
-Python3
-Java 14 (atleast)
+## Requirements
 
-Note: Make sure java and python are added in the environment path variable else the tool won't work
+- Python 3
+- Java 14 or higher (must be added to the environment PATH)
 
-Usage Guidelines:
-1. Make sure the abe.jar file is in the same folder as the tool
-2. After you click convert wait for sometime a cmd window will open showing the progress just let it complete
-3. Done, You have successfully converted .ab file .tar file
+## Usage
 
-Linux Verion of the tool will be shared soon
+1. Ensure that both Python 3 and Java 14 (or higher) are correctly installed and added to the system's environment PATH.
+2. Place the `abe.jar` file in the same directory as this tool.
+3. Run the application and follow these steps:
+   - Click on the "Convert" button.
+   - Wait for the conversion process to complete. A command prompt window will open showing the progress.
+   - Once the conversion is finished, your .ab file will be converted to a .tar file.
+
+## Notes
+
+- This tool is designed for Windows environments.
+- Support for Linux will be added in a future release.
+
+## Getting Started
+
+To get started, download or clone this repository to your local machine. Ensure all dependencies are met as specified in the Requirements section.
